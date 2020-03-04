@@ -3,12 +3,7 @@ const moment = require('moment');
 const coolImages = require('cool-images');
 
 arrayImages = coolImages.many(600, 800, 5);
-let options = {
-        fit: 'box',
-        width: 200,
-        height: 100
-    }
-   
+
 let timeStamp = moment().format('YY MM DD, hh:mm:ss ') + '\n'
 fs.appendFileSync('log.txt', timeStamp, function(err) {
     if (err) throw err;
