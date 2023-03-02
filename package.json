@@ -4,7 +4,7 @@
   "description": "a node SandBox for acamica dfws 10 - THE BEST CODING GROUP IN THE F*** EARTH (?)",
   "main": "index.js",
   "dependencies": {
-    "asciify-image": "^0.1.5",
+    "asciify-image": "^0.1.9",
     "cool-images": "^1.0.3",
     "moment": "^2.24.0"
   },
